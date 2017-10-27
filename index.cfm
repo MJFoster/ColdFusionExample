@@ -45,8 +45,7 @@
 	<!---Step 6 - Use arrayDeleteAt() --->
 	<h1>Delete myArrayExplicit Next ...</h1>
 	<p>myArrayExplicit contained:  <cfoutput>#arrayToList(myArrayExplicit)#</cfoutput></p>
-	<p>myArrayExplicit after deleting contains:  <cfoutput>#arrayToList(myArrayExplicit)#</cfoutput>
+	<p>myArrayExplicit after deleting contains:  <cfoutput>#arrayDeleteAll(myArrayExplicit)#</cfoutput>
 	
-
 
 </body>

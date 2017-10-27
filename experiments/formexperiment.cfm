@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<form id="frmUser" name="frmUser" method="get" action="actionPage.cfm">
+<form id="frmUser" name="frmUser" method="post" action="ActionPage.cfm">
 <fieldset>
 <legend>Registration form</legend>
   <p>
